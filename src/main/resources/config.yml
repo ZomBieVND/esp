@@ -1,0 +1,17 @@
+# Y threshold - entity dưới mức này sẽ bị ẩn khỏi client
+hide-below-y: 16
+
+# Radius ngang để check (blocks)
+hide-radius: 128
+
+# Loại entity cần ẩn
+hide-mobs: true
+hide-players: true
+hide-item-frames: true
+hide-armor-stands: true
+
+# Admin có bypass (thấy hết)
+allow-bypass: true
+
+# Debug log
+debug: false

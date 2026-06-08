@@ -1,0 +1,21 @@
+name: AntiESP
+version: 1.0.0
+main: dev.antiesp.AntiESP
+api-version: 1.21
+depend: [ProtocolLib]
+description: Ẩn entity/storage dưới Y threshold khỏi client packet
+authors: [AntiESP]
+
+commands:
+  antiesp:
+    description: Toggle/reload AntiESP
+    usage: /antiesp <reload|status>
+    permission: antiesp.admin
+
+permissions:
+  antiesp.admin:
+    description: Quản lý plugin
+    default: op
+  antiesp.bypass:
+    description: Không bị ẩn entity (admin xem được hết)
+    default: op
